@@ -1,4 +1,5 @@
 public class rectangleOverlap{
+  //Used nested static class Point to store the coordinates
   static class Point{
     int x,y;
     Point(int x,int y){
@@ -6,7 +7,7 @@ public class rectangleOverlap{
       this.y=y;
     }
   }
-
+// doOverlap() checks the whether rectangle is overlap or not
   static boolean doOverlap(Point l1,Point r1,Point l2,Point r2){
     if(l1.x > r2.x || l2.x > r1.x)
       return false;
