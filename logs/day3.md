@@ -10,4 +10,5 @@
 
 ## Learnings
 - Clean code matters as much as logic
-- Comments help future understanding
+- Understood concept of Time Complexity 
+- Used a comments to enhance the understanding of code in findGCD.java 
