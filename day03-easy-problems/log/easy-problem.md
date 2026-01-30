@@ -3,6 +3,7 @@
 ## What I Practiced
 - Improved Java implementation
 - Focused on code readability
+- Understood gow to use mathematical concept in code
 
 ## Challenges
 - Writing optimized loops
