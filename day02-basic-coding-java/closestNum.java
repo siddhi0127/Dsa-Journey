@@ -4,7 +4,7 @@ class closestNum{
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter Target number :");
         int target=sc.nextInt();
-        int i=1,bef_no=0,aft_no=1,fib_val;
+        int bef_no=0,aft_no=1,fib_val;
     
         while(aft_no<target){
             fib_val=bef_no+aft_no;
