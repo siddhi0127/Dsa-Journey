@@ -10,4 +10,5 @@
 ## Day 2: Revision day 
 - revised all programs and cleared all doubt.
 - Wrote and understood the `lcmUsingGcd` problem using `Euclidean Algorithm` in efficiently. 
-
+## Day 3: practice with new example 
+- by understanding logic solved problem of `divisibleByFour` to check whether no is divisible by 4 or not. 
