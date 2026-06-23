@@ -1,0 +1,13 @@
+class hcf{
+public static void main (String args[]) {
+int n1=12, n2=40;
+int hcf=HCF(n1, n2);
+System.out.println(hcf);
+}
+
+public static int HCF(int n1, int n2) {
+int hcf=1;
+for(int i=2;i<=Math.min(n1, n2)) 
+}
+
+}
