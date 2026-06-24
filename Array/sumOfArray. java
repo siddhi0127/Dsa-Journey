@@ -1,0 +1,50 @@
+package basic;
+
+import java.util.Scanner;
+
+public class sumofarray
+{
+public static void main(String args[])
+{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter elements:");
+	int arr[]=new int[5];
+	int sum=0;
+	for(int i=0;i<arr.length;i++)
+	{
+		arr[i]=sc.nextInt();
+		sum=sum+arr[i];
+	}
+	System.out.println("Sum : "+sum);
+	Display(arr);
+	MaxElement(arr);
+}
+
+
+public static void  Display(int arr[])
+{
+	System.out.println("array elements are:");
+	for(int i=0;i<arr.length;i++)
+	{
+		
+		System.out.println(arr[i]+" ");
+		
+	}
+}
+public static void MaxElement(int arr[]) 
+{
+	int l=arr[0];
+	for(int i=0;i<arr.length;i++)	
+	{
+		
+			if(arr[i]>l)
+			{
+				l=arr[i];
+				
+			}
+			
+		}
+	System.out.println("largest number is:"+l); 
+}
+}
+
