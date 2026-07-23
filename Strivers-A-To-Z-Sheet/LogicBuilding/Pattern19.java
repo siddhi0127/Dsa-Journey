@@ -1,3 +1,5 @@
+ 
+ 
  class Pattern19{
     public static void main(String args[]){
         int n=5;
@@ -18,5 +20,23 @@
              count=count+2;
         }
         
+        //second half
+        int count1=8;
+        for(int i=1;i<=n;i++){
+            //star
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            //space
+            for(int j=1;j<=count1;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+            count1=count1-2;
+            
+        }
     }
  }
